@@ -5,7 +5,7 @@ namespace TaskTrackerWEBAPI.CoreModels.DTOs.Messages
     public class CreateMessageDto
     {
         [Required]
-        [MaxLength(150)]
+        [MaxLength(250)]
         public string Name { get; set; } = string.Empty;
 
         [Required]
